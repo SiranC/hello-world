@@ -1,7 +1,7 @@
 # hello-world
 First-time user
 
-# first function ever
+### first function ever ###
 def count(list):
   ''' Count the number of 'A' in a list 'list' '''
   result = 0
