@@ -24,7 +24,6 @@ The data for this project can be downloaded from this repository.
 
 ```r
 setwd(dir = '/Users/shaoz/Desktop/JHU_DataScience/Course 5 Week2')
-#setwd(dir = '/Users/...')
 ```
 
 #### 2.Download the activity file.
@@ -67,7 +66,6 @@ totalSteps_day <- aggregate(steps ~ date, data, sum)
 ```
 
 #### 2.Make a histogram of the total number of steps taken each day using base plotting system.
-
 
 ```r
 hist(totalSteps_day$steps,
